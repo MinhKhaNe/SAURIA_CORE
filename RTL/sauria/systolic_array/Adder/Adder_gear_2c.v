@@ -1,3 +1,4 @@
+//Return with max number between a and b
 `define max(a,b) ((a) > (b) ? (a) : (b))
 
 module Adder_gear_2c #(
@@ -12,12 +13,13 @@ module Adder_gear_2c #(
 
     output  wire    [`max(WIDTH_A, WIDTH_B)-1:0]    OUT		
 );
-
+	//Derived Parameters
     parameter           BITS    = `max(WIDTH_A, WIDTH_B);
     parameter           L       = R + P;			//Sub adder length
     parameter   integer k       = (BITS > L) ? (1 + (BITS - L + R - 1) / R) : 1; //number of loops
     parameter           N       = L + (k-1)*R;		//Internal width of sum
 
+	//Internal Signals
     wire    [BITS-1:0]      a, b;
     wire    [L-1:0]         subadd_A [k-1:0]; 
     wire    [L-1:0]         subadd_B [k-1:0]; 
@@ -32,7 +34,7 @@ module Adder_gear_2c #(
 
     genvar i;
     generate
-        for(i=0; i<k; i=i+1) begin : SUB_ADD
+        for(i=0; i<k; i=i+1) begin : 
 			//Create Sub-Adder by slit inputs
             assign subadd_A[i] = a[i*R +: L];
             assign subadd_B[i] = b[i*R +: L];
@@ -44,7 +46,9 @@ module Adder_gear_2c #(
             assign subadd_one[i] = &subadd_sum[i][L-1:P];
 
             if(i == 0) begin
+				//First carry is the highest bit of first sub-adder
                 assign carry[0] = subadd_sum[0][L];
+				//Take the first L bit from the sum of sub-adders A and B
                 assign final_sum[L-1:0] = subadd_sum[0][L-1:0];
             end
             else begin
@@ -60,3 +64,4 @@ module Adder_gear_2c #(
     assign OUT = final_sum[BITS-1:0];
 
 endmodule
+

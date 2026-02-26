@@ -12,7 +12,6 @@ module Adder_ideal #(
 );
 	parameter BITS = `max(WIDTH_A, WIDTH_B);
 
-	//Internal Registers
 	wire	signed	[BITS-1:0]			a;
 	wire	signed	[BITS-1:0]			b;
 	wire	signed						carry;
@@ -21,8 +20,13 @@ module Adder_ideal #(
 	//Sign Extend
 	assign	a = {{{BITS-WIDTH_A}{A[WIDTH_A-1]}}, A};	
 	assign	b = {{{BITS-WIDTH_B}{B[WIDTH_B-1]}}, B};	
+
+	//Carry in
 	assign	carry = Carry;
 
+	//Sum = A + B + Carry_in
 	assign 	sum = a + b + carry;
+
+	//Truncate internal result to output
 	assign	OUT = sum;
 endmodule

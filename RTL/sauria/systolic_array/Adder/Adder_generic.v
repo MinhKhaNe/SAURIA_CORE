@@ -27,7 +27,7 @@ module Adder_generic #(
                 .OUT(OUT)
             );
         end
-        else if(ADD_TYPE == 1) begin    //Error
+        else if(ADD_TYPE == 1) begin
             Adder_gear #(
                 .R(A_APPROX),
                 .P(AA_APPROX),
@@ -40,7 +40,7 @@ module Adder_generic #(
                 .OUT(OUT)
             );
         end
-        else if(ADD_TYPE == 2) begin    //Error
+        else if(ADD_TYPE == 2) begin
             Adder_gear_2c #(
                 .R(A_APPROX),
                 .P(AA_APPROX),
@@ -77,7 +77,7 @@ module Adder_generic #(
                 .OUT(OUT)
             );
         end
-        else if(ADD_TYPE == 5) begin    //Result = Result + 1
+        else if(ADD_TYPE == 5) begin
             Adder_truah #(
                 .IGNORE_BIT(A_APPROX),
                 .WIDTH_A(WIDTH_A),
