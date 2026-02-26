@@ -31,12 +31,12 @@ module Multiplier_wallace #(
 	assign 	pro_sign	= a_sign ^ b_sign;
 
 	assign 	a_abs	= 	(!SIGNED) 	? 	A :			//Unsigned mode -> Keep A
-						(a_sign)	? 	(0-A) :		//Signed mode -> Take 2's complement
-						A;
+						(a_sign)	? 	(0-A) :		//Signed mode -> Take -A
+						A;							//Else keep A
 	
 	assign 	b_abs	= 	(!SIGNED) 	? 	B :			//Unsigned mode -> Keep B
-						(b_sign)	? 	(0-B) :		//Signed mode -> Take 2's complement
-						B;
+						(b_sign)	? 	(0-B) :		//Signed mode -> Take -B
+						B;							//Else keep B
 
 	//MSB forced = 0 to avoid sign-extension
 	assign	a_wall	=	{1'b0, a_abs[WIDTH_A-2:0]};	
