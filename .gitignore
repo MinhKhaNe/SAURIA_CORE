@@ -1,0 +1,19 @@
+# Simulation outputs
+*.log
+*.vcd
+*.dump
+*.wave
+
+# Tool-specific (Vivado/Xilinx)
+core.*/
+*.jou
+*.pb
+*.str
+.Xil/
+xsim.dir/
+
+# Compilation/Build artifacts
+*.out
+*.o
+*.obj
+bin/
