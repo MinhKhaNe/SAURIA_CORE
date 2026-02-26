@@ -53,7 +53,7 @@ module Multiplier_generic #(
                 .OUT(OUT)
             );
         end
-        else if(MUL_TYPE == 2) begin        //Error
+        else if(MUL_TYPE == 2) begin
             Multiplier_booth #(
                 .APPROX_TYPE(0),
                 .APPROX_W(M_APPROX),
@@ -107,7 +107,7 @@ module Multiplier_generic #(
                 .OUT(OUT)
             );
         end
-        else if(MUL_TYPE == 5) begin    //Error
+        else if(MUL_TYPE == 5) begin
             Multiplier_log #(
                 .APPROX_TYPE(0),
                 .APPROX_W(M_APPROX),
@@ -143,7 +143,7 @@ module Multiplier_generic #(
                 .OUT(OUT)
             );
         end
-        else if(MUL_TYPE == 7) begin    //Result = Result + 1
+        else if(MUL_TYPE == 7) begin
             Multiplier_wallace #(
                 .APPROX_TYPE(0),
                 .APPROX_W(M_APPROX),
