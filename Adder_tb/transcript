@@ -1,0 +1,125 @@
+# vsim -c tb_adder_gear_2c -do "run -all; quit" 
+# Start time: 15:05:56 on Mar 16,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_adder_gear_2c(fast)
+# Loading work.Adder_gear_2c(fast)
+# run -all
+# PASSED!!!! Expected result: -20314, Actual result: 45222
+# PASSED!!!! Expected result: -25116, Actual result: 40420
+# PASSED!!!! Expected result:  30676, Actual result: 30676
+# PASSED!!!! Expected result:    872, Actual result:   872
+# PASSED!!!! Expected result: -26007, Actual result: 39529
+# PASSED!!!! Expected result:  -4378, Actual result: 61158
+# PASSED!!!! Expected result:   5517, Actual result:  5517
+# PASSED!!!! Expected result: -20783, Actual result: 44753
+# PASSED!!!! Expected result: -15629, Actual result: 49907
+# PASSED!!!! Expected result: -14680, Actual result: 50856
+# PASSED!!!! Expected result:   2763, Actual result:  2763
+# PASSED!!!! Expected result:  -8782, Actual result: 56754
+# PASSED!!!! Expected result: -21290, Actual result: 44246
+# PASSED!!!! Expected result: -15697, Actual result: 49839
+# PASSED!!!! Expected result:  27563, Actual result: 27563
+# PASSED!!!! Expected result:  26087, Actual result: 26087
+# PASSED!!!! Expected result:   9409, Actual result:  9409
+# PASSED!!!! Expected result: -27050, Actual result: 38486
+# PASSED!!!! Expected result: -19670, Actual result: 45866
+# PASSED!!!! Expected result:  32543, Actual result: 32543
+# PASSED!!!! Expected result:  28084, Actual result: 28084
+# PASSED!!!! Expected result:  27761, Actual result: 27761
+# PASSED!!!! Expected result: -22499, Actual result: 43037
+# PASSED!!!! Expected result: -10801, Actual result: 54735
+# FAILED!!!! Expected result: 0111000100001000, Actual result: 0111001000001000
+# PASSED!!!! Expected result:  10531, Actual result: 10531
+# PASSED!!!! Expected result:  29121, Actual result: 29121
+# PASSED!!!! Expected result: -18949, Actual result: 46587
+# PASSED!!!! Expected result:  28508, Actual result: 28508
+# PASSED!!!! Expected result:  16086, Actual result: 16086
+# PASSED!!!! Expected result:  29339, Actual result: 29339
+# PASSED!!!! Expected result:  10109, Actual result: 10109
+# PASSED!!!! Expected result:  27739, Actual result: 27739
+# PASSED!!!! Expected result:  11696, Actual result: 11696
+# PASSED!!!! Expected result:   8931, Actual result:  8931
+# PASSED!!!! Expected result:   -498, Actual result: 65038
+# PASSED!!!! Expected result: -20261, Actual result: 45275
+# PASSED!!!! Expected result: -26052, Actual result: 39484
+# PASSED!!!! Expected result: -15239, Actual result: 50297
+# PASSED!!!! Expected result:  29414, Actual result: 29414
+# FAILED!!!! Expected result: 0000100000001000, Actual result: 0000100100001000
+# PASSED!!!! Expected result:   5287, Actual result:  5287
+# PASSED!!!! Expected result:  19474, Actual result: 19474
+# PASSED!!!! Expected result: -22135, Actual result: 43401
+# PASSED!!!! Expected result:   3596, Actual result:  3596
+# PASSED!!!! Expected result:    342, Actual result:   342
+# PASSED!!!! Expected result:  13486, Actual result: 13486
+# PASSED!!!! Expected result:   3258, Actual result:  3258
+# PASSED!!!! Expected result:  -2351, Actual result: 63185
+# PASSED!!!! Expected result:  -8717, Actual result: 56819
+# PASSED!!!! Expected result: -12756, Actual result: 52780
+# PASSED!!!! Expected result:   2534, Actual result:  2534
+# PASSED!!!! Expected result: -32294, Actual result: 33242
+# PASSED!!!! Expected result: -18684, Actual result: 46852
+# PASSED!!!! Expected result:   3949, Actual result:  3949
+# PASSED!!!! Expected result:  13396, Actual result: 13396
+# PASSED!!!! Expected result:   6593, Actual result:  6593
+# PASSED!!!! Expected result: -24338, Actual result: 41198
+# PASSED!!!! Expected result:   4086, Actual result:  4086
+# PASSED!!!! Expected result:  -3619, Actual result: 61917
+# PASSED!!!! Expected result:  29207, Actual result: 29207
+# PASSED!!!! Expected result:   6189, Actual result:  6189
+# PASSED!!!! Expected result:  22193, Actual result: 22193
+# PASSED!!!! Expected result:  -5859, Actual result: 59677
+# PASSED!!!! Expected result:  28891, Actual result: 28891
+# PASSED!!!! Expected result:  15460, Actual result: 15460
+# PASSED!!!! Expected result:  23677, Actual result: 23677
+# PASSED!!!! Expected result:  -6979, Actual result: 58557
+# PASSED!!!! Expected result:  20881, Actual result: 20881
+# PASSED!!!! Expected result:  11970, Actual result: 11970
+# PASSED!!!! Expected result: -13296, Actual result: 52240
+# PASSED!!!! Expected result:  31475, Actual result: 31475
+# PASSED!!!! Expected result:  16995, Actual result: 16995
+# PASSED!!!! Expected result: -22388, Actual result: 43148
+# PASSED!!!! Expected result: -16171, Actual result: 49365
+# PASSED!!!! Expected result:  32618, Actual result: 32618
+# PASSED!!!! Expected result: -20918, Actual result: 44618
+# PASSED!!!! Expected result: -15429, Actual result: 50107
+# PASSED!!!! Expected result:  23520, Actual result: 23520
+# PASSED!!!! Expected result:  23906, Actual result: 23906
+# PASSED!!!! Expected result:   5138, Actual result:  5138
+# PASSED!!!! Expected result:  26504, Actual result: 26504
+# PASSED!!!! Expected result:  29895, Actual result: 29895
+# PASSED!!!! Expected result: -17440, Actual result: 48096
+# PASSED!!!! Expected result: -17364, Actual result: 48172
+# PASSED!!!! Expected result:   2964, Actual result:  2964
+# PASSED!!!! Expected result:  32149, Actual result: 32149
+# PASSED!!!! Expected result: -26410, Actual result: 39126
+# PASSED!!!! Expected result:  31173, Actual result: 31173
+# PASSED!!!! Expected result:   8415, Actual result:  8415
+# PASSED!!!! Expected result: -30345, Actual result: 35191
+# PASSED!!!! Expected result:  -9178, Actual result: 56358
+# PASSED!!!! Expected result:   -720, Actual result: 64816
+# PASSED!!!! Expected result:   1652, Actual result:  1652
+# PASSED!!!! Expected result:  23083, Actual result: 23083
+# PASSED!!!! Expected result: -32009, Actual result: 33527
+# FAILED!!!! Expected result: 0000010000000101, Actual result: 0000010100000101
+# PASSED!!!! Expected result:  28576, Actual result: 28576
+# PASSED!!!! Expected result:  22227, Actual result: 22227
+# PASSED!!!! Expected result:  26656, Actual result: 26656
+# ** Note: $finish    : tb_adder_gear_2c.sv(63)
+#    Time: 1001 ns  Iteration: 0  Instance: /tb_adder_gear_2c
+# End time: 15:05:57 on Mar 16,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
