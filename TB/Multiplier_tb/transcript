@@ -1,0 +1,763 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -voptargs="+acc" work.tb_multiplier_generic 
+# Start time: 16:52:26 on Mar 09,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_multiplier_generic(fast)
+# Loading work.Multiplier_generic(fast)
+# Loading work.Multiplier_ideal(fast)
+# Loading work.Multiplier_generic(fast__1)
+# Loading work.Multiplier_bam(fast)
+# Loading work.Bam_cell(fast)
+# Loading work.Multiplier_generic(fast__2)
+# Loading work.Multiplier_booth(fast)
+# Loading work.Multiplier_generic(fast__3)
+# Loading work.Multiplier_booth(fast__1)
+# Loading work.Multiplier_generic(fast__4)
+# Loading work.Multiplier_booth(fast__2)
+# Loading work.Multiplier_generic(fast__5)
+# Loading work.Multiplier_log(fast)
+# Loading work.lopd(fast)
+# Loading work.Multiplier_generic(fast__6)
+# Loading work.Multiplier_log(fast__1)
+# Loading work.Multiplier_generic(fast__7)
+# Loading work.Multiplier_wallace(fast)
+# Loading work.Wallace_16bit(fast)
+# Loading work.Wallace_8bit(fast)
+# Loading work.Wallace_4bit(fast)
+# Loading work.Multiplier_2x2(fast)
+# Loading work.Multiplier_generic(fast__8)
+# Loading work.Multiplier_wallace(fast__1)
+# Loading work.Wallace_16bit(fast__1)
+# Loading work.Wallace_8bit(fast__1)
+# Loading work.Wallace_4bit(fast__1)
+# Loading work.Multiplier_2x2(fast__1)
+# Loading work.Multiplier_generic(fast__9)
+# Loading work.Multiplier_wallace(fast__2)
+# Loading work.Wallace_16bit(fast__2)
+# Loading work.Wallace_8bit(fast__2)
+# Loading work.Wallace_4bit(fast__2)
+# Loading work.Multiplier_2x2(fast__2)
+add wave *
+run -all
+# 
+# ===== t=20, Ideal: 0 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=190, Ideal: 1 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 1 Log1: 1 Wallace0: 1 Wallace1: 1 Wallace2: 1
+# 
+# ===== t=200, Ideal: 2 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 2 Log1: 2 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=210, Ideal: 3 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 3 Log1: 3 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=220, Ideal: 4 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 4 Log1: 5 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=225, Ideal: 4 BAM: 0 Booth0: 2 Booth1: 0 Booth2: 0 Log0: 4 Log1: 5 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=230, Ideal: 5 BAM: 0 Booth0: 2 Booth1: 0 Booth2: 0 Log0: 5 Log1: 5 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=240, Ideal: 6 BAM: 0 Booth0: 2 Booth1: 0 Booth2: 0 Log0: 6 Log1: 7 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=250, Ideal: 7 BAM: 0 Booth0: 2 Booth1: 0 Booth2: 0 Log0: 7 Log1: 7 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=255, Ideal: 7 BAM: 0 Booth0: 9 Booth1: 8 Booth2: 8 Log0: 7 Log1: 7 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=260, Ideal: 8 BAM: 0 Booth0: 9 Booth1: 8 Booth2: 8 Log0: 8 Log1: 11 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=270, Ideal: 9 BAM: 0 Booth0: 9 Booth1: 8 Booth2: 8 Log0: 9 Log1: 11 Wallace0: 1 Wallace1: 1 Wallace2: 1
+# 
+# ===== t=280, Ideal: 10 BAM: 0 Booth0: 9 Booth1: 8 Booth2: 8 Log0: 10 Log1: 11 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=285, Ideal: 10 BAM: 0 Booth0: -8 Booth1: -8 Booth2: -8 Log0: 10 Log1: 11 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=290, Ideal: 11 BAM: 0 Booth0: -8 Booth1: -8 Booth2: -8 Log0: 11 Log1: 11 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=300, Ideal: 12 BAM: 0 Booth0: -8 Booth1: -8 Booth2: -8 Log0: 12 Log1: 15 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=310, Ideal: 13 BAM: 0 Booth0: -8 Booth1: -8 Booth2: -8 Log0: 13 Log1: 15 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=315, Ideal: 13 BAM: 0 Booth0: -5 Booth1: -8 Booth2: -8 Log0: 13 Log1: 15 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=320, Ideal: 14 BAM: 0 Booth0: -5 Booth1: -8 Booth2: -8 Log0: 14 Log1: 15 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=330, Ideal: 15 BAM: 0 Booth0: -5 Booth1: -8 Booth2: -8 Log0: 15 Log1: 15 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=340, Ideal: 0 BAM: 0 Booth0: -5 Booth1: -8 Booth2: -8 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=345, Ideal: 0 BAM: 0 Booth0: -2 Booth1: -4 Booth2: -4 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=350, Ideal: 2 BAM: 0 Booth0: -2 Booth1: -4 Booth2: -4 Log0: 2 Log1: 2 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=360, Ideal: 4 BAM: 0 Booth0: -2 Booth1: -4 Booth2: -4 Log0: 4 Log1: 5 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=370, Ideal: 6 BAM: 0 Booth0: -2 Booth1: -4 Booth2: -4 Log0: 6 Log1: 7 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=375, Ideal: 6 BAM: 0 Booth0: 10 Booth1: 8 Booth2: 8 Log0: 6 Log1: 7 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=380, Ideal: 8 BAM: 0 Booth0: 10 Booth1: 8 Booth2: 8 Log0: 8 Log1: 11 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=390, Ideal: 10 BAM: 0 Booth0: 10 Booth1: 8 Booth2: 8 Log0: 10 Log1: 11 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=400, Ideal: 12 BAM: 0 Booth0: 10 Booth1: 8 Booth2: 8 Log0: 12 Log1: 15 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=405, Ideal: 12 BAM: 0 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 12 Log1: 15 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=410, Ideal: 14 BAM: 0 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 14 Log1: 15 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=420, Ideal: 16 BAM: 0 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 16 Log1: 22 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=430, Ideal: 18 BAM: 0 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 18 Log1: 22 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=435, Ideal: 18 BAM: 0 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 18 Log1: 22 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=440, Ideal: 20 BAM: 0 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 20 Log1: 22 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=450, Ideal: 22 BAM: 0 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 22 Log1: 22 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=460, Ideal: 24 BAM: 0 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 24 Log1: 30 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=465, Ideal: 24 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 24 Log1: 30 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=470, Ideal: 26 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 26 Log1: 30 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=480, Ideal: 28 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 28 Log1: 30 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=490, Ideal: 30 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 30 Log1: 30 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=495, Ideal: 30 BAM: 0 Booth0: 2 Booth1: 0 Booth2: 0 Log0: 30 Log1: 30 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=500, Ideal: 0 BAM: 0 Booth0: 2 Booth1: 0 Booth2: 0 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=510, Ideal: 3 BAM: 0 Booth0: 2 Booth1: 0 Booth2: 0 Log0: 3 Log1: 3 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=520, Ideal: 6 BAM: 0 Booth0: 2 Booth1: 0 Booth2: 0 Log0: 6 Log1: 7 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=525, Ideal: 6 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 6 Log1: 7 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=530, Ideal: 9 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 8 Log1: 15 Wallace0: 9 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=540, Ideal: 12 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 12 Log1: 15 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=550, Ideal: 15 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 14 Log1: 15 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=555, Ideal: 15 BAM: 0 Booth0: 9 Booth1: 8 Booth2: 8 Log0: 14 Log1: 15 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=560, Ideal: 18 BAM: 0 Booth0: 9 Booth1: 8 Booth2: 8 Log0: 16 Log1: 30 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=570, Ideal: 21 BAM: 0 Booth0: 9 Booth1: 8 Booth2: 8 Log0: 20 Log1: 30 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=580, Ideal: 24 BAM: 0 Booth0: 9 Booth1: 8 Booth2: 8 Log0: 24 Log1: 30 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=585, Ideal: 24 BAM: 0 Booth0: 18 Booth1: 16 Booth2: 16 Log0: 24 Log1: 30 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=590, Ideal: 27 BAM: 0 Booth0: 18 Booth1: 16 Booth2: 16 Log0: 26 Log1: 30 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=600, Ideal: 30 BAM: 0 Booth0: 18 Booth1: 16 Booth2: 16 Log0: 28 Log1: 30 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=610, Ideal: 33 BAM: 0 Booth0: 18 Booth1: 16 Booth2: 16 Log0: 30 Log1: 30 Wallace0: 9 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=615, Ideal: 33 BAM: 0 Booth0: -9 Booth1: -12 Booth2: -12 Log0: 30 Log1: 30 Wallace0: 9 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=620, Ideal: 36 BAM: 0 Booth0: -9 Booth1: -12 Booth2: -12 Log0: 32 Log1: 60 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=630, Ideal: 39 BAM: 0 Booth0: -9 Booth1: -12 Booth2: -12 Log0: 36 Log1: 60 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=640, Ideal: 42 BAM: 0 Booth0: -9 Booth1: -12 Booth2: -12 Log0: 40 Log1: 60 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=645, Ideal: 42 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 40 Log1: 60 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=650, Ideal: 45 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 44 Log1: 60 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=660, Ideal: 0 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=670, Ideal: 4 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 4 Log1: 5 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=675, Ideal: 4 BAM: 0 Booth0: -3 Booth1: -4 Booth2: -4 Log0: 4 Log1: 5 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=680, Ideal: 8 BAM: 0 Booth0: -3 Booth1: -4 Booth2: -4 Log0: 8 Log1: 11 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=690, Ideal: 12 BAM: 0 Booth0: -3 Booth1: -4 Booth2: -4 Log0: 12 Log1: 15 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=700, Ideal: 16 BAM: 0 Booth0: -3 Booth1: -4 Booth2: -4 Log0: 16 Log1: 22 Wallace0: 16 Wallace1: 16 Wallace2: 16
+# 
+# ===== t=705, Ideal: 16 BAM: 16 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 16 Log1: 22 Wallace0: 16 Wallace1: 16 Wallace2: 16
+# 
+# ===== t=710, Ideal: 20 BAM: 16 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 20 Log1: 22 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=720, Ideal: 24 BAM: 16 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 24 Log1: 30 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=730, Ideal: 28 BAM: 16 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 28 Log1: 30 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=735, Ideal: 28 BAM: 16 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 28 Log1: 30 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=740, Ideal: 32 BAM: 16 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 32 Log1: 44 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=745, Ideal: 32 BAM: 32 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 32 Log1: 44 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=750, Ideal: 36 BAM: 32 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 36 Log1: 44 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=760, Ideal: 40 BAM: 32 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 40 Log1: 44 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=765, Ideal: 40 BAM: 32 Booth0: -32 Booth1: -32 Booth2: -32 Log0: 40 Log1: 44 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=770, Ideal: 44 BAM: 32 Booth0: -32 Booth1: -32 Booth2: -32 Log0: 44 Log1: 44 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=780, Ideal: 48 BAM: 32 Booth0: -32 Booth1: -32 Booth2: -32 Log0: 48 Log1: 60 Wallace0: 16 Wallace1: 16 Wallace2: 16
+# 
+# ===== t=785, Ideal: 48 BAM: 48 Booth0: -32 Booth1: -32 Booth2: -32 Log0: 48 Log1: 60 Wallace0: 16 Wallace1: 16 Wallace2: 16
+# 
+# ===== t=790, Ideal: 52 BAM: 48 Booth0: -32 Booth1: -32 Booth2: -32 Log0: 52 Log1: 60 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=795, Ideal: 52 BAM: 48 Booth0: -20 Booth1: -20 Booth2: -20 Log0: 52 Log1: 60 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=800, Ideal: 56 BAM: 48 Booth0: -20 Booth1: -20 Booth2: -20 Log0: 56 Log1: 60 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=810, Ideal: 60 BAM: 48 Booth0: -20 Booth1: -20 Booth2: -20 Log0: 60 Log1: 60 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=820, Ideal: 0 BAM: 48 Booth0: -20 Booth1: -20 Booth2: -20 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=825, Ideal: 0 BAM: 0 Booth0: -8 Booth1: -8 Booth2: -8 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=830, Ideal: 5 BAM: 0 Booth0: -8 Booth1: -8 Booth2: -8 Log0: 5 Log1: 5 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=840, Ideal: 10 BAM: 0 Booth0: -8 Booth1: -8 Booth2: -8 Log0: 10 Log1: 11 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=850, Ideal: 15 BAM: 0 Booth0: -8 Booth1: -8 Booth2: -8 Log0: 14 Log1: 15 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=855, Ideal: 15 BAM: 0 Booth0: 25 Booth1: 24 Booth2: 24 Log0: 14 Log1: 15 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=860, Ideal: 20 BAM: 0 Booth0: 25 Booth1: 24 Booth2: 24 Log0: 20 Log1: 22 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=865, Ideal: 20 BAM: 16 Booth0: 25 Booth1: 24 Booth2: 24 Log0: 20 Log1: 22 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=870, Ideal: 25 BAM: 16 Booth0: 25 Booth1: 24 Booth2: 24 Log0: 24 Log1: 22 Wallace0: 25 Wallace1: 25 Wallace2: 25
+# 
+# ===== t=880, Ideal: 30 BAM: 16 Booth0: 25 Booth1: 24 Booth2: 24 Log0: 28 Log1: 30 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=885, Ideal: 30 BAM: 16 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 28 Log1: 30 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=890, Ideal: 35 BAM: 16 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 32 Log1: 30 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=900, Ideal: 40 BAM: 16 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 40 Log1: 44 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=905, Ideal: 40 BAM: 32 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 40 Log1: 44 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=910, Ideal: 45 BAM: 32 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 44 Log1: 44 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=915, Ideal: 45 BAM: 32 Booth0: -45 Booth1: -48 Booth2: -48 Log0: 44 Log1: 44 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=920, Ideal: 50 BAM: 32 Booth0: -45 Booth1: -48 Booth2: -48 Log0: 48 Log1: 44 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=930, Ideal: 55 BAM: 32 Booth0: -45 Booth1: -48 Booth2: -48 Log0: 52 Log1: 44 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=940, Ideal: 60 BAM: 32 Booth0: -45 Booth1: -48 Booth2: -48 Log0: 56 Log1: 60 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=945, Ideal: 60 BAM: 48 Booth0: -30 Booth1: -32 Booth2: -32 Log0: 56 Log1: 60 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=950, Ideal: 65 BAM: 48 Booth0: -30 Booth1: -32 Booth2: -32 Log0: 60 Log1: 60 Wallace0: 25 Wallace1: 25 Wallace2: 25
+# 
+# ===== t=960, Ideal: 70 BAM: 48 Booth0: -30 Booth1: -32 Booth2: -32 Log0: 64 Log1: 60 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=970, Ideal: 75 BAM: 48 Booth0: -30 Booth1: -32 Booth2: -32 Log0: 72 Log1: 60 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=975, Ideal: 75 BAM: 48 Booth0: 5 Booth1: 4 Booth2: 4 Log0: 72 Log1: 60 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=980, Ideal: 0 BAM: 48 Booth0: 5 Booth1: 4 Booth2: 4 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=985, Ideal: 0 BAM: 0 Booth0: 5 Booth1: 4 Booth2: 4 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=990, Ideal: 6 BAM: 0 Booth0: 5 Booth1: 4 Booth2: 4 Log0: 6 Log1: 7 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1000, Ideal: 12 BAM: 0 Booth0: 5 Booth1: 4 Booth2: 4 Log0: 12 Log1: 15 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1005, Ideal: 12 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 12 Log1: 15 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1010, Ideal: 18 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 16 Log1: 30 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=1020, Ideal: 24 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 24 Log1: 30 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=1025, Ideal: 24 BAM: 16 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 24 Log1: 30 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=1030, Ideal: 30 BAM: 16 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 28 Log1: 30 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=1035, Ideal: 30 BAM: 16 Booth0: 18 Booth1: 16 Booth2: 16 Log0: 28 Log1: 30 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=1040, Ideal: 36 BAM: 16 Booth0: 18 Booth1: 16 Booth2: 16 Log0: 32 Log1: 60 Wallace0: 36 Wallace1: 36 Wallace2: 36
+# 
+# ===== t=1050, Ideal: 42 BAM: 16 Booth0: 18 Booth1: 16 Booth2: 16 Log0: 40 Log1: 60 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=1060, Ideal: 48 BAM: 16 Booth0: 18 Booth1: 16 Booth2: 16 Log0: 48 Log1: 60 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1065, Ideal: 48 BAM: 32 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 48 Log1: 60 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1070, Ideal: 54 BAM: 32 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 52 Log1: 60 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1080, Ideal: 60 BAM: 32 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 56 Log1: 60 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1090, Ideal: 66 BAM: 32 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 60 Log1: 60 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=1095, Ideal: 66 BAM: 32 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 60 Log1: 60 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=1100, Ideal: 72 BAM: 32 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 64 Log1: 120 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=1105, Ideal: 72 BAM: 48 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 64 Log1: 120 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=1110, Ideal: 78 BAM: 48 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 72 Log1: 120 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=1120, Ideal: 84 BAM: 48 Booth0: -18 Booth1: -20 Booth2: -20 Log0: 80 Log1: 120 Wallace0: 36 Wallace1: 36 Wallace2: 36
+# 
+# ===== t=1125, Ideal: 84 BAM: 48 Booth0: -24 Booth1: -24 Booth2: -24 Log0: 80 Log1: 120 Wallace0: 36 Wallace1: 36 Wallace2: 36
+# 
+# ===== t=1130, Ideal: 90 BAM: 48 Booth0: -24 Booth1: -24 Booth2: -24 Log0: 88 Log1: 120 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=1140, Ideal: 0 BAM: 48 Booth0: -24 Booth1: -24 Booth2: -24 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1145, Ideal: 0 BAM: 0 Booth0: -24 Booth1: -24 Booth2: -24 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1150, Ideal: 7 BAM: 0 Booth0: -24 Booth1: -24 Booth2: -24 Log0: 7 Log1: 7 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=1155, Ideal: 7 BAM: 0 Booth0: -6 Booth1: -8 Booth2: -8 Log0: 7 Log1: 7 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=1160, Ideal: 14 BAM: 0 Booth0: -6 Booth1: -8 Booth2: -8 Log0: 14 Log1: 15 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=1170, Ideal: 21 BAM: 0 Booth0: -6 Booth1: -8 Booth2: -8 Log0: 20 Log1: 30 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=1180, Ideal: 28 BAM: 0 Booth0: -6 Booth1: -8 Booth2: -8 Log0: 28 Log1: 30 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=1185, Ideal: 28 BAM: 16 Booth0: 14 Booth1: 12 Booth2: 12 Log0: 28 Log1: 30 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=1190, Ideal: 35 BAM: 16 Booth0: 14 Booth1: 12 Booth2: 12 Log0: 32 Log1: 30 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=1200, Ideal: 42 BAM: 16 Booth0: 14 Booth1: 12 Booth2: 12 Log0: 40 Log1: 60 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=1210, Ideal: 49 BAM: 16 Booth0: 14 Booth1: 12 Booth2: 12 Log0: 48 Log1: 60 Wallace0: 49 Wallace1: 47 Wallace2: 47
+# 
+# ===== t=1215, Ideal: 49 BAM: 16 Booth0: 63 Booth1: 60 Booth2: 60 Log0: 48 Log1: 60 Wallace0: 49 Wallace1: 47 Wallace2: 47
+# 
+# ===== t=1220, Ideal: 56 BAM: 16 Booth0: 63 Booth1: 60 Booth2: 60 Log0: 56 Log1: 60 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1225, Ideal: 56 BAM: 32 Booth0: 63 Booth1: 60 Booth2: 60 Log0: 56 Log1: 60 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1230, Ideal: 63 BAM: 32 Booth0: 63 Booth1: 60 Booth2: 60 Log0: 60 Log1: 60 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=1240, Ideal: 70 BAM: 32 Booth0: 63 Booth1: 60 Booth2: 60 Log0: 64 Log1: 60 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=1245, Ideal: 70 BAM: 32 Booth0: -56 Booth1: -56 Booth2: -56 Log0: 64 Log1: 60 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=1250, Ideal: 77 BAM: 32 Booth0: -56 Booth1: -56 Booth2: -56 Log0: 72 Log1: 60 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=1260, Ideal: 84 BAM: 32 Booth0: -56 Booth1: -56 Booth2: -56 Log0: 80 Log1: 120 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=1265, Ideal: 84 BAM: 48 Booth0: -56 Booth1: -56 Booth2: -56 Log0: 80 Log1: 120 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=1270, Ideal: 91 BAM: 48 Booth0: -56 Booth1: -56 Booth2: -56 Log0: 88 Log1: 120 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=1275, Ideal: 91 BAM: 48 Booth0: -35 Booth1: -36 Booth2: -36 Log0: 88 Log1: 120 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=1280, Ideal: 98 BAM: 48 Booth0: -35 Booth1: -36 Booth2: -36 Log0: 96 Log1: 120 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=1290, Ideal: 105 BAM: 48 Booth0: -35 Booth1: -36 Booth2: -36 Log0: 104 Log1: 120 Wallace0: 49 Wallace1: 47 Wallace2: 47
+# 
+# ===== t=1300, Ideal: 0 BAM: 48 Booth0: -35 Booth1: -36 Booth2: -36 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1305, Ideal: 0 BAM: 0 Booth0: -14 Booth1: -16 Booth2: -16 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1310, Ideal: 8 BAM: 0 Booth0: -14 Booth1: -16 Booth2: -16 Log0: 8 Log1: 11 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1320, Ideal: 16 BAM: 0 Booth0: -14 Booth1: -16 Booth2: -16 Log0: 16 Log1: 22 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1330, Ideal: 24 BAM: 0 Booth0: -14 Booth1: -16 Booth2: -16 Log0: 24 Log1: 30 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1335, Ideal: 24 BAM: 0 Booth0: 40 Booth1: 40 Booth2: 40 Log0: 24 Log1: 30 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1340, Ideal: 32 BAM: 0 Booth0: 40 Booth1: 40 Booth2: 40 Log0: 32 Log1: 44 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1345, Ideal: 32 BAM: 32 Booth0: 40 Booth1: 40 Booth2: 40 Log0: 32 Log1: 44 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1350, Ideal: 40 BAM: 32 Booth0: 40 Booth1: 40 Booth2: 40 Log0: 40 Log1: 44 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1360, Ideal: 48 BAM: 32 Booth0: 40 Booth1: 40 Booth2: 40 Log0: 48 Log1: 60 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1365, Ideal: 48 BAM: 32 Booth0: 32 Booth1: 32 Booth2: 32 Log0: 48 Log1: 60 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1370, Ideal: 56 BAM: 32 Booth0: 32 Booth1: 32 Booth2: 32 Log0: 56 Log1: 60 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1380, Ideal: 64 BAM: 32 Booth0: 32 Booth1: 32 Booth2: 32 Log0: 64 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1385, Ideal: 64 BAM: 64 Booth0: 32 Booth1: 32 Booth2: 32 Log0: 64 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1390, Ideal: 72 BAM: 64 Booth0: 32 Booth1: 32 Booth2: 32 Log0: 72 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1395, Ideal: 72 BAM: 64 Booth0: -72 Booth1: -72 Booth2: -72 Log0: 72 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1400, Ideal: 80 BAM: 64 Booth0: -72 Booth1: -72 Booth2: -72 Log0: 80 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1410, Ideal: 88 BAM: 64 Booth0: -72 Booth1: -72 Booth2: -72 Log0: 88 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1420, Ideal: 96 BAM: 64 Booth0: -72 Booth1: -72 Booth2: -72 Log0: 96 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1425, Ideal: 96 BAM: 96 Booth0: -48 Booth1: -48 Booth2: -48 Log0: 96 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1430, Ideal: 104 BAM: 96 Booth0: -48 Booth1: -48 Booth2: -48 Log0: 104 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1440, Ideal: 112 BAM: 96 Booth0: -48 Booth1: -48 Booth2: -48 Log0: 112 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1450, Ideal: 120 BAM: 96 Booth0: -48 Booth1: -48 Booth2: -48 Log0: 120 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1455, Ideal: 120 BAM: 96 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 120 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1460, Ideal: 0 BAM: 96 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1465, Ideal: 0 BAM: 0 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1470, Ideal: 9 BAM: 0 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 9 Log1: 11 Wallace0: 1 Wallace1: 1 Wallace2: 1
+# 
+# ===== t=1480, Ideal: 18 BAM: 0 Booth0: 8 Booth1: 8 Booth2: 8 Log0: 18 Log1: 22 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=1485, Ideal: 18 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 18 Log1: 22 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=1490, Ideal: 27 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 26 Log1: 30 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=1500, Ideal: 36 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 36 Log1: 44 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=1505, Ideal: 36 BAM: 32 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 36 Log1: 44 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=1510, Ideal: 45 BAM: 32 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 44 Log1: 44 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=1515, Ideal: 45 BAM: 32 Booth0: 27 Booth1: 24 Booth2: 24 Log0: 44 Log1: 44 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=1520, Ideal: 54 BAM: 32 Booth0: 27 Booth1: 24 Booth2: 24 Log0: 52 Log1: 60 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1530, Ideal: 63 BAM: 32 Booth0: 27 Booth1: 24 Booth2: 24 Log0: 60 Log1: 60 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=1540, Ideal: 72 BAM: 32 Booth0: 27 Booth1: 24 Booth2: 24 Log0: 72 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1545, Ideal: 72 BAM: 64 Booth0: 54 Booth1: 52 Booth2: 52 Log0: 72 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1550, Ideal: 81 BAM: 64 Booth0: 54 Booth1: 52 Booth2: 52 Log0: 80 Log1: 88 Wallace0: 1 Wallace1: 1 Wallace2: 1
+# 
+# ===== t=1560, Ideal: 90 BAM: 64 Booth0: 54 Booth1: 52 Booth2: 52 Log0: 88 Log1: 88 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=1570, Ideal: 99 BAM: 64 Booth0: 54 Booth1: 52 Booth2: 52 Log0: 96 Log1: 88 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=1575, Ideal: 99 BAM: 64 Booth0: -27 Booth1: -28 Booth2: -28 Log0: 96 Log1: 88 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=1580, Ideal: 108 BAM: 64 Booth0: -27 Booth1: -28 Booth2: -28 Log0: 104 Log1: 120 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=1585, Ideal: 108 BAM: 96 Booth0: -27 Booth1: -28 Booth2: -28 Log0: 104 Log1: 120 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=1590, Ideal: 117 BAM: 96 Booth0: -27 Booth1: -28 Booth2: -28 Log0: 112 Log1: 120 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=1600, Ideal: 126 BAM: 96 Booth0: -27 Booth1: -28 Booth2: -28 Log0: 120 Log1: 120 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1605, Ideal: 126 BAM: 96 Booth0: -36 Booth1: -36 Booth2: -36 Log0: 120 Log1: 120 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1610, Ideal: -121 BAM: 96 Booth0: -36 Booth1: -36 Booth2: -36 Log0: -128 Log1: 120 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=1620, Ideal: 0 BAM: 96 Booth0: -36 Booth1: -36 Booth2: -36 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1625, Ideal: 0 BAM: 0 Booth0: -36 Booth1: -36 Booth2: -36 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1630, Ideal: 10 BAM: 0 Booth0: -36 Booth1: -36 Booth2: -36 Log0: 10 Log1: 11 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=1635, Ideal: 10 BAM: 0 Booth0: -9 Booth1: -12 Booth2: -12 Log0: 10 Log1: 11 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=1640, Ideal: 20 BAM: 0 Booth0: -9 Booth1: -12 Booth2: -12 Log0: 20 Log1: 22 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=1650, Ideal: 30 BAM: 0 Booth0: -9 Booth1: -12 Booth2: -12 Log0: 28 Log1: 30 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1660, Ideal: 40 BAM: 0 Booth0: -9 Booth1: -12 Booth2: -12 Log0: 40 Log1: 44 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=1665, Ideal: 40 BAM: 32 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 40 Log1: 44 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=1670, Ideal: 50 BAM: 32 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 48 Log1: 44 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=1680, Ideal: 60 BAM: 32 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 56 Log1: 60 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1690, Ideal: 70 BAM: 32 Booth0: 20 Booth1: 20 Booth2: 20 Log0: 64 Log1: 60 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=1695, Ideal: 70 BAM: 32 Booth0: 90 Booth1: 88 Booth2: 88 Log0: 64 Log1: 60 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=1700, Ideal: 80 BAM: 32 Booth0: 90 Booth1: 88 Booth2: 88 Log0: 80 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1705, Ideal: 80 BAM: 64 Booth0: 90 Booth1: 88 Booth2: 88 Log0: 80 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1710, Ideal: 90 BAM: 64 Booth0: 90 Booth1: 88 Booth2: 88 Log0: 88 Log1: 88 Wallace0: 2 Wallace1: 2 Wallace2: 2
+# 
+# ===== t=1720, Ideal: 100 BAM: 64 Booth0: 90 Booth1: 88 Booth2: 88 Log0: 96 Log1: 88 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=1725, Ideal: 100 BAM: 64 Booth0: -80 Booth1: -80 Booth2: -80 Log0: 96 Log1: 88 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=1730, Ideal: 110 BAM: 64 Booth0: -80 Booth1: -80 Booth2: -80 Log0: 104 Log1: 88 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1740, Ideal: 120 BAM: 64 Booth0: -80 Booth1: -80 Booth2: -80 Log0: 112 Log1: 120 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=1745, Ideal: 120 BAM: 96 Booth0: -80 Booth1: -80 Booth2: -80 Log0: 112 Log1: 120 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=1750, Ideal: -126 BAM: 96 Booth0: -80 Booth1: -80 Booth2: -80 Log0: 120 Log1: 120 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=1755, Ideal: -126 BAM: 96 Booth0: -50 Booth1: -52 Booth2: -52 Log0: 120 Log1: 120 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=1760, Ideal: -116 BAM: 96 Booth0: -50 Booth1: -52 Booth2: -52 Log0: -128 Log1: 120 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1770, Ideal: -106 BAM: 96 Booth0: -50 Booth1: -52 Booth2: -52 Log0: -112 Log1: 120 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=1780, Ideal: 0 BAM: 96 Booth0: -50 Booth1: -52 Booth2: -52 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1785, Ideal: 0 BAM: 0 Booth0: -20 Booth1: -20 Booth2: -20 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1790, Ideal: 11 BAM: 0 Booth0: -20 Booth1: -20 Booth2: -20 Log0: 11 Log1: 11 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=1800, Ideal: 22 BAM: 0 Booth0: -20 Booth1: -20 Booth2: -20 Log0: 22 Log1: 22 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1810, Ideal: 33 BAM: 0 Booth0: -20 Booth1: -20 Booth2: -20 Log0: 30 Log1: 30 Wallace0: 9 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=1815, Ideal: 33 BAM: 0 Booth0: 55 Booth1: 52 Booth2: 52 Log0: 30 Log1: 30 Wallace0: 9 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=1820, Ideal: 44 BAM: 0 Booth0: 55 Booth1: 52 Booth2: 52 Log0: 44 Log1: 44 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1825, Ideal: 44 BAM: 32 Booth0: 55 Booth1: 52 Booth2: 52 Log0: 44 Log1: 44 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1830, Ideal: 55 BAM: 32 Booth0: 55 Booth1: 52 Booth2: 52 Log0: 52 Log1: 44 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=1840, Ideal: 66 BAM: 32 Booth0: 55 Booth1: 52 Booth2: 52 Log0: 60 Log1: 60 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=1845, Ideal: 66 BAM: 32 Booth0: 44 Booth1: 44 Booth2: 44 Log0: 60 Log1: 60 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=1850, Ideal: 77 BAM: 32 Booth0: 44 Booth1: 44 Booth2: 44 Log0: 72 Log1: 60 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=1860, Ideal: 88 BAM: 32 Booth0: 44 Booth1: 44 Booth2: 44 Log0: 88 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1865, Ideal: 88 BAM: 64 Booth0: 44 Booth1: 44 Booth2: 44 Log0: 88 Log1: 88 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1870, Ideal: 99 BAM: 64 Booth0: 44 Booth1: 44 Booth2: 44 Log0: 96 Log1: 88 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=1875, Ideal: 99 BAM: 64 Booth0: -99 Booth1: -100 Booth2: -100 Log0: 96 Log1: 88 Wallace0: 3 Wallace1: 3 Wallace2: 3
+# 
+# ===== t=1880, Ideal: 110 BAM: 64 Booth0: -99 Booth1: -100 Booth2: -100 Log0: 104 Log1: 88 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=1890, Ideal: 121 BAM: 64 Booth0: -99 Booth1: -100 Booth2: -100 Log0: 112 Log1: 88 Wallace0: 9 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=1900, Ideal: -124 BAM: 64 Booth0: -99 Booth1: -100 Booth2: -100 Log0: 120 Log1: 120 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1905, Ideal: -124 BAM: 96 Booth0: -66 Booth1: -68 Booth2: -68 Log0: 120 Log1: 120 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1910, Ideal: -113 BAM: 96 Booth0: -66 Booth1: -68 Booth2: -68 Log0: -128 Log1: 120 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=1920, Ideal: -102 BAM: 96 Booth0: -66 Booth1: -68 Booth2: -68 Log0: -112 Log1: 120 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=1930, Ideal: -91 BAM: 96 Booth0: -66 Booth1: -68 Booth2: -68 Log0: -96 Log1: 120 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=1935, Ideal: -91 BAM: 96 Booth0: 11 Booth1: 8 Booth2: 8 Log0: -96 Log1: 120 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=1940, Ideal: 0 BAM: 96 Booth0: 11 Booth1: 8 Booth2: 8 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1945, Ideal: 0 BAM: 0 Booth0: 11 Booth1: 8 Booth2: 8 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=1950, Ideal: 12 BAM: 0 Booth0: 11 Booth1: 8 Booth2: 8 Log0: 12 Log1: 15 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=1960, Ideal: 24 BAM: 0 Booth0: 11 Booth1: 8 Booth2: 8 Log0: 24 Log1: 30 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=1965, Ideal: 24 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 24 Log1: 30 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=1970, Ideal: 36 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 32 Log1: 60 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=1980, Ideal: 48 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 48 Log1: 60 Wallace0: 16 Wallace1: 16 Wallace2: 16
+# 
+# ===== t=1985, Ideal: 48 BAM: 48 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 48 Log1: 60 Wallace0: 16 Wallace1: 16 Wallace2: 16
+# 
+# ===== t=1990, Ideal: 60 BAM: 48 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 56 Log1: 60 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=1995, Ideal: 60 BAM: 48 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 56 Log1: 60 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=2000, Ideal: 72 BAM: 48 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 64 Log1: 120 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=2010, Ideal: 84 BAM: 48 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 80 Log1: 120 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=2020, Ideal: 96 BAM: 48 Booth0: 36 Booth1: 36 Booth2: 36 Log0: 96 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2025, Ideal: 96 BAM: 96 Booth0: 72 Booth1: 72 Booth2: 72 Log0: 96 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2030, Ideal: 108 BAM: 96 Booth0: 72 Booth1: 72 Booth2: 72 Log0: 104 Log1: 120 Wallace0: 4 Wallace1: 4 Wallace2: 4
+# 
+# ===== t=2040, Ideal: 120 BAM: 96 Booth0: 72 Booth1: 72 Booth2: 72 Log0: 112 Log1: 120 Wallace0: 8 Wallace1: 8 Wallace2: 8
+# 
+# ===== t=2050, Ideal: -124 BAM: 96 Booth0: 72 Booth1: 72 Booth2: 72 Log0: 120 Log1: 120 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=2055, Ideal: -124 BAM: 96 Booth0: -36 Booth1: -36 Booth2: -36 Log0: 120 Log1: 120 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=2060, Ideal: -112 BAM: 96 Booth0: -36 Booth1: -36 Booth2: -36 Log0: -128 Log1: -16 Wallace0: 16 Wallace1: 16 Wallace2: 16
+# 
+# ===== t=2065, Ideal: -112 BAM: -112 Booth0: -36 Booth1: -36 Booth2: -36 Log0: -128 Log1: -16 Wallace0: 16 Wallace1: 16 Wallace2: 16
+# 
+# ===== t=2070, Ideal: -100 BAM: -112 Booth0: -36 Booth1: -36 Booth2: -36 Log0: -112 Log1: -16 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=2080, Ideal: -88 BAM: -112 Booth0: -36 Booth1: -36 Booth2: -36 Log0: -96 Log1: -16 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=2085, Ideal: -88 BAM: -112 Booth0: -48 Booth1: -48 Booth2: -48 Log0: -96 Log1: -16 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=2090, Ideal: -76 BAM: -112 Booth0: -48 Booth1: -48 Booth2: -48 Log0: -80 Log1: -16 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=2100, Ideal: 0 BAM: -112 Booth0: -48 Booth1: -48 Booth2: -48 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2105, Ideal: 0 BAM: 0 Booth0: -48 Booth1: -48 Booth2: -48 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2110, Ideal: 13 BAM: 0 Booth0: -48 Booth1: -48 Booth2: -48 Log0: 13 Log1: 15 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=2115, Ideal: 13 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 13 Log1: 15 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=2120, Ideal: 26 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 26 Log1: 30 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=2130, Ideal: 39 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 36 Log1: 60 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=2140, Ideal: 52 BAM: 0 Booth0: -12 Booth1: -12 Booth2: -12 Log0: 52 Log1: 60 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=2145, Ideal: 52 BAM: 48 Booth0: 26 Booth1: 24 Booth2: 24 Log0: 52 Log1: 60 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=2150, Ideal: 65 BAM: 48 Booth0: 26 Booth1: 24 Booth2: 24 Log0: 60 Log1: 60 Wallace0: 25 Wallace1: 25 Wallace2: 25
+# 
+# ===== t=2160, Ideal: 78 BAM: 48 Booth0: 26 Booth1: 24 Booth2: 24 Log0: 72 Log1: 120 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=2170, Ideal: 91 BAM: 48 Booth0: 26 Booth1: 24 Booth2: 24 Log0: 88 Log1: 120 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=2175, Ideal: 91 BAM: 48 Booth0: 117 Booth1: 116 Booth2: 116 Log0: 88 Log1: 120 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=2180, Ideal: 104 BAM: 48 Booth0: 117 Booth1: 116 Booth2: 116 Log0: 104 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2185, Ideal: 104 BAM: 96 Booth0: 117 Booth1: 116 Booth2: 116 Log0: 104 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2190, Ideal: 117 BAM: 96 Booth0: 117 Booth1: 116 Booth2: 116 Log0: 112 Log1: 120 Wallace0: 5 Wallace1: 5 Wallace2: 5
+# 
+# ===== t=2200, Ideal: -126 BAM: 96 Booth0: 117 Booth1: 116 Booth2: 116 Log0: 120 Log1: 120 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=2205, Ideal: -126 BAM: 96 Booth0: -104 Booth1: -104 Booth2: -104 Log0: 120 Log1: 120 Wallace0: 10 Wallace1: 10 Wallace2: 10
+# 
+# ===== t=2210, Ideal: -113 BAM: 96 Booth0: -104 Booth1: -104 Booth2: -104 Log0: -128 Log1: 120 Wallace0: 15 Wallace1: 15 Wallace2: 15
+# 
+# ===== t=2220, Ideal: -100 BAM: 96 Booth0: -104 Booth1: -104 Booth2: -104 Log0: -112 Log1: -16 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=2225, Ideal: -100 BAM: -112 Booth0: -104 Booth1: -104 Booth2: -104 Log0: -112 Log1: -16 Wallace0: 20 Wallace1: 20 Wallace2: 20
+# 
+# ===== t=2230, Ideal: -87 BAM: -112 Booth0: -104 Booth1: -104 Booth2: -104 Log0: -96 Log1: -16 Wallace0: 25 Wallace1: 25 Wallace2: 25
+# 
+# ===== t=2235, Ideal: -87 BAM: -112 Booth0: -65 Booth1: -68 Booth2: -68 Log0: -96 Log1: -16 Wallace0: 25 Wallace1: 25 Wallace2: 25
+# 
+# ===== t=2240, Ideal: -74 BAM: -112 Booth0: -65 Booth1: -68 Booth2: -68 Log0: -80 Log1: -16 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=2250, Ideal: -61 BAM: -112 Booth0: -65 Booth1: -68 Booth2: -68 Log0: -64 Log1: -16 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=2260, Ideal: 0 BAM: -112 Booth0: -65 Booth1: -68 Booth2: -68 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2265, Ideal: 0 BAM: 0 Booth0: -26 Booth1: -28 Booth2: -28 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2270, Ideal: 14 BAM: 0 Booth0: -26 Booth1: -28 Booth2: -28 Log0: 14 Log1: 15 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=2280, Ideal: 28 BAM: 0 Booth0: -26 Booth1: -28 Booth2: -28 Log0: 28 Log1: 30 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=2290, Ideal: 42 BAM: 0 Booth0: -26 Booth1: -28 Booth2: -28 Log0: 40 Log1: 60 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=2295, Ideal: 42 BAM: 0 Booth0: 70 Booth1: 68 Booth2: 68 Log0: 40 Log1: 60 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=2300, Ideal: 56 BAM: 0 Booth0: 70 Booth1: 68 Booth2: 68 Log0: 56 Log1: 60 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=2305, Ideal: 56 BAM: 48 Booth0: 70 Booth1: 68 Booth2: 68 Log0: 56 Log1: 60 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=2310, Ideal: 70 BAM: 48 Booth0: 70 Booth1: 68 Booth2: 68 Log0: 64 Log1: 60 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=2320, Ideal: 84 BAM: 48 Booth0: 70 Booth1: 68 Booth2: 68 Log0: 80 Log1: 120 Wallace0: 36 Wallace1: 36 Wallace2: 36
+# 
+# ===== t=2325, Ideal: 84 BAM: 48 Booth0: 56 Booth1: 56 Booth2: 56 Log0: 80 Log1: 120 Wallace0: 36 Wallace1: 36 Wallace2: 36
+# 
+# ===== t=2330, Ideal: 98 BAM: 48 Booth0: 56 Booth1: 56 Booth2: 56 Log0: 96 Log1: 120 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=2340, Ideal: 112 BAM: 48 Booth0: 56 Booth1: 56 Booth2: 56 Log0: 112 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2345, Ideal: 112 BAM: 96 Booth0: 56 Booth1: 56 Booth2: 56 Log0: 112 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2350, Ideal: 126 BAM: 96 Booth0: 56 Booth1: 56 Booth2: 56 Log0: 120 Log1: 120 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=2355, Ideal: 126 BAM: 96 Booth0: -126 Booth1: -128 Booth2: -128 Log0: 120 Log1: 120 Wallace0: 6 Wallace1: 6 Wallace2: 6
+# 
+# ===== t=2360, Ideal: -116 BAM: 96 Booth0: -126 Booth1: -128 Booth2: -128 Log0: -128 Log1: 120 Wallace0: 12 Wallace1: 12 Wallace2: 12
+# 
+# ===== t=2370, Ideal: -102 BAM: 96 Booth0: -126 Booth1: -128 Booth2: -128 Log0: -112 Log1: 120 Wallace0: 18 Wallace1: 18 Wallace2: 18
+# 
+# ===== t=2380, Ideal: -88 BAM: 96 Booth0: -126 Booth1: -128 Booth2: -128 Log0: -96 Log1: -16 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=2385, Ideal: -88 BAM: -112 Booth0: -84 Booth1: -84 Booth2: -84 Log0: -96 Log1: -16 Wallace0: 24 Wallace1: 24 Wallace2: 24
+# 
+# ===== t=2390, Ideal: -74 BAM: -112 Booth0: -84 Booth1: -84 Booth2: -84 Log0: -80 Log1: -16 Wallace0: 30 Wallace1: 30 Wallace2: 30
+# 
+# ===== t=2400, Ideal: -60 BAM: -112 Booth0: -84 Booth1: -84 Booth2: -84 Log0: -64 Log1: -16 Wallace0: 36 Wallace1: 36 Wallace2: 36
+# 
+# ===== t=2410, Ideal: -46 BAM: -112 Booth0: -84 Booth1: -84 Booth2: -84 Log0: -48 Log1: -16 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=2415, Ideal: -46 BAM: -112 Booth0: 14 Booth1: 12 Booth2: 12 Log0: -48 Log1: -16 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=2420, Ideal: 0 BAM: -112 Booth0: 14 Booth1: 12 Booth2: 12 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2425, Ideal: 0 BAM: 0 Booth0: 14 Booth1: 12 Booth2: 12 Log0: 0 Log1: 0 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2430, Ideal: 15 BAM: 0 Booth0: 14 Booth1: 12 Booth2: 12 Log0: 15 Log1: 15 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=2440, Ideal: 30 BAM: 0 Booth0: 14 Booth1: 12 Booth2: 12 Log0: 30 Log1: 30 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=2445, Ideal: 30 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 30 Log1: 30 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=2450, Ideal: 45 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 44 Log1: 60 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=2460, Ideal: 60 BAM: 0 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 60 Log1: 60 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=2465, Ideal: 60 BAM: 48 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 60 Log1: 60 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=2470, Ideal: 75 BAM: 48 Booth0: 0 Booth1: 0 Booth2: 0 Log0: 72 Log1: 60 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=2475, Ideal: 75 BAM: 48 Booth0: 45 Booth1: 44 Booth2: 44 Log0: 72 Log1: 60 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=2480, Ideal: 90 BAM: 48 Booth0: 45 Booth1: 44 Booth2: 44 Log0: 88 Log1: 120 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=2490, Ideal: 105 BAM: 48 Booth0: 45 Booth1: 44 Booth2: 44 Log0: 104 Log1: 120 Wallace0: 49 Wallace1: 47 Wallace2: 47
+# 
+# ===== t=2500, Ideal: 120 BAM: 48 Booth0: 45 Booth1: 44 Booth2: 44 Log0: 120 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2505, Ideal: 120 BAM: 96 Booth0: 90 Booth1: 88 Booth2: 88 Log0: 120 Log1: 120 Wallace0: 0 Wallace1: 0 Wallace2: 0
+# 
+# ===== t=2510, Ideal: -121 BAM: 96 Booth0: 90 Booth1: 88 Booth2: 88 Log0: -128 Log1: 120 Wallace0: 7 Wallace1: 7 Wallace2: 7
+# 
+# ===== t=2520, Ideal: -106 BAM: 96 Booth0: 90 Booth1: 88 Booth2: 88 Log0: -112 Log1: 120 Wallace0: 14 Wallace1: 14 Wallace2: 14
+# 
+# ===== t=2530, Ideal: -91 BAM: 96 Booth0: 90 Booth1: 88 Booth2: 88 Log0: -96 Log1: 120 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=2535, Ideal: -91 BAM: 96 Booth0: -45 Booth1: -48 Booth2: -48 Log0: -96 Log1: 120 Wallace0: 21 Wallace1: 19 Wallace2: 19
+# 
+# ===== t=2540, Ideal: -76 BAM: 96 Booth0: -45 Booth1: -48 Booth2: -48 Log0: -80 Log1: -16 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=2545, Ideal: -76 BAM: -112 Booth0: -45 Booth1: -48 Booth2: -48 Log0: -80 Log1: -16 Wallace0: 28 Wallace1: 28 Wallace2: 28
+# 
+# ===== t=2550, Ideal: -61 BAM: -112 Booth0: -45 Booth1: -48 Booth2: -48 Log0: -64 Log1: -16 Wallace0: 35 Wallace1: 35 Wallace2: 35
+# 
+# ===== t=2560, Ideal: -46 BAM: -112 Booth0: -45 Booth1: -48 Booth2: -48 Log0: -48 Log1: -16 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=2565, Ideal: -46 BAM: -112 Booth0: -60 Booth1: -60 Booth2: -60 Log0: -48 Log1: -16 Wallace0: 42 Wallace1: 42 Wallace2: 42
+# 
+# ===== t=2570, Ideal: -31 BAM: -112 Booth0: -60 Booth1: -60 Booth2: -60 Log0: -32 Log1: -16 Wallace0: 49 Wallace1: 47 Wallace2: 47
+# 
+# ===== t=2595, Ideal: -31 BAM: -112 Booth0: -15 Booth1: -16 Booth2: -16 Log0: -32 Log1: -16 Wallace0: 49 Wallace1: 47 Wallace2: 47
+# ** Note: $finish    : tb_multiplier_generic.sv(206)
+#    Time: 2630 ns  Iteration: 0  Instance: /tb_multiplier_generic
+# 1
+# Break in Module tb_multiplier_generic at tb_multiplier_generic.sv line 206
+# End time: 16:54:42 on Mar 09,2026, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 0

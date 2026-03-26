@@ -1,0 +1,651 @@
+$date
+	Mon Mar  9 14:57:40 2026
+$end
+$version
+	QuestaSim Version 2021.2_1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_multiplier_ideal $end
+$var parameter 32 ! WIDTH_A $end
+$var parameter 32 " WIDTH_B $end
+$var parameter 32 # WIDTH_MUL $end
+$var parameter 32 $ SIGNED $end
+$var parameter 32 % STAGE $end
+$var parameter 32 & LATENCY $end
+$var reg 1 ' clk $end
+$var reg 1 ( rst_n $end
+$var reg 1 ) pip_en $end
+$var reg 16 * A [15:0] $end
+$var reg 16 + B [15:0] $end
+$var wire 1 , OUT [31] $end
+$var wire 1 - OUT [30] $end
+$var wire 1 . OUT [29] $end
+$var wire 1 / OUT [28] $end
+$var wire 1 0 OUT [27] $end
+$var wire 1 1 OUT [26] $end
+$var wire 1 2 OUT [25] $end
+$var wire 1 3 OUT [24] $end
+$var wire 1 4 OUT [23] $end
+$var wire 1 5 OUT [22] $end
+$var wire 1 6 OUT [21] $end
+$var wire 1 7 OUT [20] $end
+$var wire 1 8 OUT [19] $end
+$var wire 1 9 OUT [18] $end
+$var wire 1 : OUT [17] $end
+$var wire 1 ; OUT [16] $end
+$var wire 1 < OUT [15] $end
+$var wire 1 = OUT [14] $end
+$var wire 1 > OUT [13] $end
+$var wire 1 ? OUT [12] $end
+$var wire 1 @ OUT [11] $end
+$var wire 1 A OUT [10] $end
+$var wire 1 B OUT [9] $end
+$var wire 1 C OUT [8] $end
+$var wire 1 D OUT [7] $end
+$var wire 1 E OUT [6] $end
+$var wire 1 F OUT [5] $end
+$var wire 1 G OUT [4] $end
+$var wire 1 H OUT [3] $end
+$var wire 1 I OUT [2] $end
+$var wire 1 J OUT [1] $end
+$var wire 1 K OUT [0] $end
+
+$scope task run_test $end
+$var integer 32 L a $end
+$var integer 32 M b $end
+$var integer 32 N exp $end
+$upscope $end
+
+$scope module dut $end
+$var parameter 32 O SIGNED $end
+$var parameter 32 P WIDTH_A $end
+$var parameter 32 Q WIDTH_B $end
+$var parameter 32 R WIDTH_MUL $end
+$var parameter 32 S STAGE $end
+$var wire 1 T clk $end
+$var wire 1 U rst_n $end
+$var wire 1 V pip_en $end
+$var wire 1 W A [15] $end
+$var wire 1 X A [14] $end
+$var wire 1 Y A [13] $end
+$var wire 1 Z A [12] $end
+$var wire 1 [ A [11] $end
+$var wire 1 \ A [10] $end
+$var wire 1 ] A [9] $end
+$var wire 1 ^ A [8] $end
+$var wire 1 _ A [7] $end
+$var wire 1 ` A [6] $end
+$var wire 1 a A [5] $end
+$var wire 1 b A [4] $end
+$var wire 1 c A [3] $end
+$var wire 1 d A [2] $end
+$var wire 1 e A [1] $end
+$var wire 1 f A [0] $end
+$var wire 1 g B [15] $end
+$var wire 1 h B [14] $end
+$var wire 1 i B [13] $end
+$var wire 1 j B [12] $end
+$var wire 1 k B [11] $end
+$var wire 1 l B [10] $end
+$var wire 1 m B [9] $end
+$var wire 1 n B [8] $end
+$var wire 1 o B [7] $end
+$var wire 1 p B [6] $end
+$var wire 1 q B [5] $end
+$var wire 1 r B [4] $end
+$var wire 1 s B [3] $end
+$var wire 1 t B [2] $end
+$var wire 1 u B [1] $end
+$var wire 1 v B [0] $end
+$var wire 1 , OUT [31] $end
+$var wire 1 - OUT [30] $end
+$var wire 1 . OUT [29] $end
+$var wire 1 / OUT [28] $end
+$var wire 1 0 OUT [27] $end
+$var wire 1 1 OUT [26] $end
+$var wire 1 2 OUT [25] $end
+$var wire 1 3 OUT [24] $end
+$var wire 1 4 OUT [23] $end
+$var wire 1 5 OUT [22] $end
+$var wire 1 6 OUT [21] $end
+$var wire 1 7 OUT [20] $end
+$var wire 1 8 OUT [19] $end
+$var wire 1 9 OUT [18] $end
+$var wire 1 : OUT [17] $end
+$var wire 1 ; OUT [16] $end
+$var wire 1 < OUT [15] $end
+$var wire 1 = OUT [14] $end
+$var wire 1 > OUT [13] $end
+$var wire 1 ? OUT [12] $end
+$var wire 1 @ OUT [11] $end
+$var wire 1 A OUT [10] $end
+$var wire 1 B OUT [9] $end
+$var wire 1 C OUT [8] $end
+$var wire 1 D OUT [7] $end
+$var wire 1 E OUT [6] $end
+$var wire 1 F OUT [5] $end
+$var wire 1 G OUT [4] $end
+$var wire 1 H OUT [3] $end
+$var wire 1 I OUT [2] $end
+$var wire 1 J OUT [1] $end
+$var wire 1 K OUT [0] $end
+$var wire 1 w A_sign [15] $end
+$var wire 1 x A_sign [14] $end
+$var wire 1 y A_sign [13] $end
+$var wire 1 z A_sign [12] $end
+$var wire 1 { A_sign [11] $end
+$var wire 1 | A_sign [10] $end
+$var wire 1 } A_sign [9] $end
+$var wire 1 ~ A_sign [8] $end
+$var wire 1 !! A_sign [7] $end
+$var wire 1 "! A_sign [6] $end
+$var wire 1 #! A_sign [5] $end
+$var wire 1 $! A_sign [4] $end
+$var wire 1 %! A_sign [3] $end
+$var wire 1 &! A_sign [2] $end
+$var wire 1 '! A_sign [1] $end
+$var wire 1 (! A_sign [0] $end
+$var wire 1 )! B_sign [15] $end
+$var wire 1 *! B_sign [14] $end
+$var wire 1 +! B_sign [13] $end
+$var wire 1 ,! B_sign [12] $end
+$var wire 1 -! B_sign [11] $end
+$var wire 1 .! B_sign [10] $end
+$var wire 1 /! B_sign [9] $end
+$var wire 1 0! B_sign [8] $end
+$var wire 1 1! B_sign [7] $end
+$var wire 1 2! B_sign [6] $end
+$var wire 1 3! B_sign [5] $end
+$var wire 1 4! B_sign [4] $end
+$var wire 1 5! B_sign [3] $end
+$var wire 1 6! B_sign [2] $end
+$var wire 1 7! B_sign [1] $end
+$var wire 1 8! B_sign [0] $end
+$var reg 32 9! OUT_sign [31:0] $end
+
+$scope begin genblk1[2] $end
+$var parameter 32 :! i $end
+$upscope $end
+
+$scope begin genblk1[1] $end
+$var parameter 32 ;! i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+0(
+0)
+b0 *
+b0 +
+bx 9!
+b10000 !
+b10000 "
+b100000 #
+b0 $
+b10 %
+b11 &
+b0 O
+b10000 P
+b10000 Q
+b100000 R
+b10 S
+b1 ;!
+b10 :!
+b0 L
+b0 M
+b0 N
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+z(!
+z'!
+z&!
+z%!
+z$!
+z#!
+z"!
+z!!
+z~
+z}
+z|
+z{
+zz
+zy
+zx
+zw
+z8!
+z7!
+z6!
+z5!
+z4!
+z3!
+z2!
+z1!
+z0!
+z/!
+z.!
+z-!
+z,!
+z+!
+z*!
+z)!
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+$end
+#5000
+1'
+1T
+#10000
+0'
+0T
+#15000
+1'
+1T
+#20000
+0'
+0T
+#25000
+1'
+1T
+1(
+1U
+#30000
+0'
+0T
+#35000
+1'
+1T
+#40000
+0'
+0T
+#45000
+1'
+1T
+b11 L
+b101 M
+b11 *
+b101 +
+1)
+b1111 N
+1V
+1v
+1t
+1f
+1e
+#50000
+0'
+0T
+#55000
+1'
+1T
+#60000
+0'
+0T
+#65000
+1'
+1T
+1K
+1J
+1I
+1H
+#70000
+0'
+0T
+#75000
+1'
+1T
+b111 L
+b1001 M
+b111 *
+b1001 +
+b111111 N
+0t
+1s
+1d
+#80000
+0'
+0T
+#85000
+1'
+1T
+#90000
+0'
+0T
+#95000
+1'
+1T
+1G
+1F
+#100000
+0'
+0T
+#105000
+1'
+1T
+b1100 L
+b100 M
+b1100 *
+b100 +
+b110000 N
+0v
+1t
+0s
+0f
+0e
+1c
+#110000
+0'
+0T
+#115000
+1'
+1T
+#120000
+0'
+0T
+#125000
+1'
+1T
+0K
+0J
+0I
+0H
+#130000
+0'
+0T
+#135000
+1'
+1T
+b1111 L
+b1111 M
+b1111 *
+b1111 +
+b11100001 N
+1v
+1u
+1s
+1f
+1e
+#140000
+0'
+0T
+#145000
+1'
+1T
+#150000
+0'
+0T
+#155000
+1'
+1T
+1K
+0G
+1E
+1D
+#160000
+0'
+0T
+#165000
+1'
+1T
+b1000011 L
+b11011 M
+b1000011 *
+b11011 +
+b11100010001 N
+0t
+1r
+0d
+0c
+1`
+#170000
+0'
+0T
+#175000
+1'
+1T
+#180000
+0'
+0T
+#185000
+1'
+1T
+1G
+0F
+0E
+0D
+1C
+1B
+1A
+#190000
+0'
+0T
+#195000
+1'
+1T
+b100011 L
+b1011101 M
+b100011 *
+b1011101 +
+b110010110111 N
+0u
+1t
+1p
+1a
+0`
+#200000
+0'
+0T
+#205000
+1'
+1T
+#210000
+0'
+0T
+#215000
+1'
+1T
+1J
+1I
+1F
+1D
+0C
+0B
+1@
+#220000
+0'
+0T
+#225000
+1'
+1T
+b1001100 L
+b101000 M
+b1001100 *
+b101000 +
+b101111100000 N
+0v
+0t
+0r
+1q
+0p
+0f
+0e
+1d
+1c
+0a
+1`
+#230000
+0'
+0T
+#235000
+1'
+1T
+#240000
+0'
+0T
+#245000
+1'
+1T
+0K
+0J
+0I
+0G
+1E
+1C
+1B
+0A
+#250000
+0'
+0T
+#255000
+1'
+1T
+b111111 L
+b110010 M
+b111111 *
+b110010 +
+b110001001110 N
+1u
+0s
+1r
+1f
+1e
+1b
+1a
+0`
+#260000
+0'
+0T
+#265000
+1'
+1T
+#270000
+0'
+0T
+#275000
+1'
+1T
+1J
+1I
+1H
+0F
+0D
+0C
+0B
+1A
+#280000
+0'
+0T
+#285000
+1'
+1T
+b1011100 L
+b111110 M
+b1011100 *
+b111110 +
+b1011001001000 N
+1t
+1s
+0f
+0e
+0a
+1`
+#290000
+0'
+0T
+#295000
+1'
+1T
+#300000
+0'
+0T
+#305000
+1'
+1T
+0J
+0I
+1B
+0@
+1?
+#310000
+0'
+0T
+#315000
+1'
+1T
+#320000
+0'
+0T
+#325000
+1'
+1T
+#330000
+0'
+0T
