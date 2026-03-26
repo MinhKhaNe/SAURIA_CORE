@@ -1,0 +1,321 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/nguyenminhkha/Desktop/SAURIA_CORE/TB
+T_opt
+!s110 1774507697
+VnSYJ2h__jkn:B3Cz:hOSF3
+04 10 4 work tb_ram_top fast 0
+=1-7c214ac8dcb4-69c4d6b1-64589-1f34
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+vprocessing_element_is
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1774507696
+!i10b 1
+!s100 @VijJ`ei1BSYgaUn7VgdZ3
+IM<_Z@Eim06_lQhFaJKicJ0
+S1
+R1
+w1773191577
+8../RTL/systolic_array/processing_element_is.v
+F../RTL/systolic_array/processing_element_is.v
+!i122 55
+L0 1 256
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z7 !s108 1774507696.000000
+Z8 !s107 tb_ram_top.sv|../RTL/systolic_array/Zero_detection.v|../RTL/systolic_array/processing_element_os.v|../RTL/systolic_array/systolic_array.v|../RTL/systolic_array/processing_element_ws.v|../RTL/systolic_array/processing_element_is.v|../RTL/SRAM/ram_top.v|../RTL/SRAM/ram_wrapper.v|../RTL/SRAM/ram_inferred.v|
+Z9 !s90 -sv|-f|rtl.f|tb_ram_top.sv|
+!i113 0
+Z10 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv +incdir+../RTL/SRAM +incdir+../RTL/systolic_array -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vprocessing_element_os
+R3
+R4
+!i10b 1
+!s100 lEZ;R4;28KaamH^5ne21F0
+Io^Dn?1e8QHRVFXCWO[Lel0
+S1
+R1
+w1772695825
+8../RTL/systolic_array/processing_element_os.v
+F../RTL/systolic_array/processing_element_os.v
+!i122 55
+L0 1 241
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vprocessing_element_ws
+R3
+R4
+!i10b 1
+!s100 9mdcS9UhVG;`Kn2lKIP?I0
+IM]5E[m9G5D7d6cAAKZW7g1
+S1
+R1
+w1773027523
+8../RTL/systolic_array/processing_element_ws.v
+F../RTL/systolic_array/processing_element_ws.v
+!i122 55
+L0 1 250
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vram_inferred
+R3
+R4
+!i10b 1
+!s100 aJ^?1iU_Z:Cm2aT5cQT3W2
+ILTk=QAni7XVj0F_=_ZWO23
+S1
+R1
+w1774507693
+8../RTL/SRAM/ram_inferred.v
+F../RTL/SRAM/ram_inferred.v
+!i122 55
+L0 1 41
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vram_top
+R3
+R4
+!i10b 1
+!s100 ?fVbI0dhL2WAnI<T_`40X0
+IdSYF=U`P]QA[c:REM2@eQ1
+S1
+R1
+w1774499712
+8../RTL/SRAM/ram_top.v
+F../RTL/SRAM/ram_top.v
+!i122 55
+L0 1 203
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vram_wrapper
+R3
+R4
+!i10b 1
+!s100 oDJ;hmYda?;gX;IG`V83a2
+IYa;S4afaVLh2G63R7]oR]1
+S1
+R1
+w1774499312
+8../RTL/SRAM/ram_wrapper.v
+F../RTL/SRAM/ram_wrapper.v
+!i122 55
+L0 3 233
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vsystolic_array
+R3
+R4
+!i10b 1
+!s100 J3z2BMia17hK_nzYC6B@:3
+I<QbE7KlPR_MW37n?^5JVj3
+S1
+R1
+w1773030807
+8../RTL/systolic_array/systolic_array.v
+F../RTL/systolic_array/systolic_array.v
+!i122 55
+L0 1 217
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vtb_ram_top
+R3
+R4
+!i10b 1
+!s100 PkDa=ORm@;X6UhTi9<AcX3
+IB97M]Yb7E<18]i28o:gJZ2
+S1
+R1
+w1774507559
+8tb_ram_top.sv
+Ftb_ram_top.sv
+!i122 55
+L0 3 273
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vtb_sa_comp_er
+R3
+!s110 1774495358
+!i10b 1
+!s100 1mUR63nW]E<gONCecaEEH3
+IbPjNejm1dakAa[2W@1k1B3
+S1
+R1
+w1773893293
+8tb_sa_comp_er.sv
+Ftb_sa_comp_er.sv
+!i122 3
+L0 1 313
+R5
+R6
+r1
+!s85 0
+31
+!s108 1774495357.000000
+!s107 tb_sa_comp_er.sv|../RTL/systolic_array/Zero_detection.v|../RTL/systolic_array/processing_element_os.v|../RTL/systolic_array/systolic_array.v|../RTL/systolic_array/processing_element_ws.v|../RTL/systolic_array/processing_element_is.v|../RTL/SRAM/ram_top.v|../RTL/SRAM/ram_wrapper.v|../RTL/SRAM/ram_inferred.v|
+!s90 -sv|-f|rtl.f|tb_sa_comp_er.sv|
+!i113 0
+R10
+R11
+R2
+vZero_detection
+R3
+R4
+!i10b 1
+!s100 7On_QK@[7_;3B:H6gake=3
+IB2^YkOjdLW_>aEl8B@ae?3
+S1
+R1
+w1772693233
+8../RTL/systolic_array/Zero_detection.v
+F../RTL/systolic_array/Zero_detection.v
+!i122 55
+L0 5 115
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+n@zero_detection
